@@ -5,11 +5,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>BEM</title>
 </head>
 
 <body>
-
+    <header></header>
+    <main class="wrapper">
+        <section class="support">
+            <p class="sub-title">підтримка</p>
+            <h2 class="title">поширені запитання <br>
+                — додаткова інформація</h2>
+            <p class="description">Програма для змін у країні</p>
+            <div class="support__items">
+                <div class="support__item">
+                    <input class="support__input" type="checkbox" name="support" id="support-1">
+                    <label class="support__question" for="support-1">ЯКІ ПЕРЕВАГИ УЧАСТІ У ПРОГРАМІ ДЛЯ ШКОЛИ?
+                        <span></span></label>
+                    <p class="suppotr__answer">Школа отримує позашкільні заходи для дітей, можливості професійного
+                        розвитку для адміністрації та педагогічного
+                        колективу, а також середовище постійного руху до нових освітніх програм в співтоваристві
+                        однодумців.</p>
+                </div>
+                <div class="support__item">
+                    <input class="support__input" type="checkbox" name="support" id="support-2">
+                    <label class="support__question" for="support-2">ХТО СТАЄ УЧАСНИКАМИ ПРОГРАМИ?
+                        <span></span></label>
+                    <p class="suppotr__answer">Школа отримує позашкільні заходи для дітей, можливості професійного
+                        розвитку для адміністрації та педагогічного
+                        колективу, а також середовище постійного руху до нових освітніх програм в співтоваристві
+                        однодумців.</p>
+                </div>
+                <div class="support__item">
+                    <input class="support__input" type="checkbox" name="support" id="support-3">
+                    <label class="support__question" for="support-3">яку підготовку отримують учасники від програми?
+                        <span></span></label>
+                    <p class="suppotr__answer">Школа отримує позашкільні заходи для дітей, можливості професійного
+                        розвитку для адміністрації та педагогічного
+                        колективу, а також середовище постійного руху до нових освітніх програм в співтоваристві
+                        однодумців.</p>
+                </div>
+                <div class="support__item">
+                    <input class="support__input" type="checkbox" name="support" id="support-4">
+                    <label class="support__question" for="support-4">ЯК ПРОГРАМА ПІДТРИМУЄ учасників ПРОТЯГОМ 2-Х РОКІВ
+                        У ПРОГРАМІ?
+                        <span></span></label>
+                    <p class="suppotr__answer">Школа отримує позашкільні заходи для дітей, можливості професійного
+                        розвитку для адміністрації та педагогічного
+                        колективу, а також середовище постійного руху до нових освітніх програм в співтоваристві
+                        однодумців.</p>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <p class="sub-title">партнери</p>
+            <h2 class="title">співпрацюємо<br>
+                — з однодумцями</h2>
+            <p class="description">Партнери є невід’ємною частиною нашої спільноти — саме вони роблять всі наші зусилля
+                можливим.</p>
+            <div class="partners__items">
+                <div class="partner__item">
+                    <img class="partner__logo" src="img/n-ix.svg" alt="">
+                    <h4 class="partner__name">N-IX <br>
+                        software development</h4>
+                    <p class="partner__about">Перший в Україні та Молдові регіональний фонд прямих інвестицій у бізнесі.
+                    </p>
+                    <button class="btn-more">
+                        <img src="img/btn-more.svg" alt="">
+                    </button>
+                </div>
+                <div class="partner__item partner__item_blue">
+                    <img class="partner__logo" src="img/western.svg" alt="">
+                    <h4 class="partner__name">WESTERN nIS <br>
+                        ENTERPRISE FUND</h4>
+                    <p class="partner__about">Перший в Україні та Молдові регіональний фонд прямих інвестицій у бізнесі.
+                    </p>
+                    <button class="btn-more">
+                        <img src="img/btn-more.svg" alt="">
+                    </button>
+                </div>
+                <div class="partner__item ">
+                    <img class="partner__logo" src="img/dhl.svg" alt="">
+                    <h4 class="partner__name">DHL <br> Global network</h4>
+                    <p class="partner__about">Перший в Україні та Молдові регіональний фонд прямих інвестицій у бізнесі.
+                    </p>
+                    <button class="btn-more">
+                        <img src="img/btn-more.svg" alt="">
+                    </button>
+                </div>
+                <div class="partner__item ">
+                    <img class="partner__logo" src="img/macpaw.svg" alt="">
+                    <h4 class="partner__name">MAC PAW <br>
+                        software development</h4>
+                    <p class="partner__about">Перший в Україні та Молдові регіональний фонд прямих інвестицій у бізнесі.
+                    </p>
+                    <button class="btn-more">
+                        <img src="img/btn-more.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="connection">
+            <p class="sub-title">зв’язок</p>
+            <h2 class="title">будь частиною змін у країні<br>
+                – напиши нам</h2>
+            <p class="description">Якщо в тебе залишились додаткові питання або ти хочеш бути частиною прогресивного
+                руху в Україні — обов’язково напиши
+                нам.</p>
+            <form action="" class="form">
+                <div class="form__name">
+                    <label for="name">ім’я</label>
+                    <input type="text" name="name" id="name" placeholder="Напишіть ваше ім’я">
+                </div>
+                <div class="form__message">
+                    <label for="message">Повідомлення</label>
+                    <textarea name="textarea" id="message" cols="30" rows="1"
+                        placeholder="Напишіть ваше повідомлення"></textarea>
+                </div>
+                <div class="form__email">
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email" placeholder="Напишіть вашу електронну адресу">
+                </div>
+                <div class="form__decor-line"></div>
+                <button class="button">відправити</button>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
 </body>
 
 </html>
